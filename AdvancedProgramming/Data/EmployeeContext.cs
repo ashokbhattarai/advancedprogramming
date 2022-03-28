@@ -6,7 +6,7 @@ namespace AdvancedProgramming.Data
     public class EmployeeContext: DbContext
     {
 
-        public EmployeeContext(DbContextOptions<EmployeeContext> options)
+        public EmployeeContext(DbContextOptions<EmployeeContext> options): base(options)
         {
 
         }

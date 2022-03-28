@@ -1,1 +1,21 @@
-﻿
+﻿1. Clone this project
+2. Configure your server name in appsettings.json file
+3. Run  Update-Database command in Package Manager Console to create database using code-first approach
+4. Run  Add Migration "user defined comments or initial migration to create tables" command in Package Manager Console
+5. Run  "Update-Database" command in Package Manager Console
+
+
+
+// Tools for running this project
+1. Install .NET CORE SDK 5.0, also runtime install from VS Code
+2. Visual Studio 2022
+See more at Config of this Project
+
+
+// Install Dependencies
+1. Microsoft.EntityFrameworkCore 5.0.15
+2.  Microsoft.EntityFrameworkCore.Relational 5.0.15
+3.  Microsoft.EntityFrameworkCore.Tools 5.0.15
+4.  Microsoft.EntityFrameworkCore.SqlServer 5.0.15
+
+then add controllers based on added modals i.e new c# classes
