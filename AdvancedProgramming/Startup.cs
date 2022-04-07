@@ -1,4 +1,7 @@
 using AdvancedProgramming.Data;
+using AdvancedProgramming.Interfaces;
+using AdvancedProgramming.Repository;
+using AdvancedProgramming.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,6 +29,9 @@ namespace AdvancedProgramming
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<EmployeeContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
+            services.AddTransient<IEmployeeService, EmployeeService>();
+
             services.AddControllersWithViews();
         }
 

@@ -20,6 +20,7 @@ namespace AdvancedProgramming.Controllers
 
         public IActionResult Index()
         {
+
             return View();
         }
 

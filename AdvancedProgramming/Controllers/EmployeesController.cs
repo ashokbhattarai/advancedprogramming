@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using AdvancedProgramming.Data;
+using AdvancedProgramming.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using AdvancedProgramming.Data;
-using AdvancedProgramming.Models;
 
 namespace AdvancedProgramming.Controllers
 {

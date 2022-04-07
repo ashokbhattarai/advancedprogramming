@@ -1,0 +1,8 @@
+﻿namespace AdvancedProgramming.Models
+{
+    public class Designation
+    {
+        public int DesignationId { get; set; }
+        public string Name { get; set; }
+    }
+}

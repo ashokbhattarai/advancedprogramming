@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ashok\\source\\repos\\Ismit\\advancedprogramming\\AdvancedProgramming\\AdvancedProgramming.csproj": {}
+    "C:\\Users\\ashok\\source\\repos\\ISMT\\advancedprogramming\\AdvancedProgramming\\AdvancedProgramming.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ashok\\source\\repos\\Ismit\\advancedprogramming\\AdvancedProgramming\\AdvancedProgramming.csproj": {
+    "C:\\Users\\ashok\\source\\repos\\ISMT\\advancedprogramming\\AdvancedProgramming\\AdvancedProgramming.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ashok\\source\\repos\\Ismit\\advancedprogramming\\AdvancedProgramming\\AdvancedProgramming.csproj",
+        "projectUniqueName": "C:\\Users\\ashok\\source\\repos\\ISMT\\advancedprogramming\\AdvancedProgramming\\AdvancedProgramming.csproj",
         "projectName": "AdvancedProgramming",
-        "projectPath": "C:\\Users\\ashok\\source\\repos\\Ismit\\advancedprogramming\\AdvancedProgramming\\AdvancedProgramming.csproj",
+        "projectPath": "C:\\Users\\ashok\\source\\repos\\ISMT\\advancedprogramming\\AdvancedProgramming\\AdvancedProgramming.csproj",
         "packagesPath": "C:\\Users\\ashok\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ashok\\source\\repos\\Ismit\\advancedprogramming\\AdvancedProgramming\\obj\\",
+        "outputPath": "C:\\Users\\ashok\\source\\repos\\ISMT\\advancedprogramming\\AdvancedProgramming\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ashok\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,17 +50,21 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[5.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[5.0.15, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[5.0.2, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
             }
           },
           "imports": [
